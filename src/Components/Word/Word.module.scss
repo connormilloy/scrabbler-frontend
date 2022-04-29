@@ -1,0 +1,9 @@
+.word {
+  display: flex;
+}
+
+.lettersWrapper {
+  display: flex;
+  max-width: 600px;
+  flex-wrap: wrap;
+}

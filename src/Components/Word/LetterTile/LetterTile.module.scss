@@ -1,0 +1,26 @@
+.letterTile {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .25rem;
+  border-radius: 5px;
+  background: rgb(232, 189, 116);
+  -webkit-box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.5);
+}
+
+.letter {
+  font-family: 'Jura', 'Roboto', 'sans-serif';
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.score {
+  font-size: 0.8rem;
+  position: relative;
+  top: 16px;
+  left: 5px;
+}
